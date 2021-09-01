@@ -1,4 +1,4 @@
-package com.phei.netty.rpc.pojo;
+package com.mylovin.netty.rpc.pojo;
 
 /**
  * rpc请求类的格式

@@ -1,6 +1,6 @@
-package com.phei.netty.rpc.client;
+package com.mylovin.netty.rpc.client;
 
-import com.phei.netty.rpc.pojo.ResponseProto;
+import com.mylovin.netty.rpc.pojo.ResponseProto;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

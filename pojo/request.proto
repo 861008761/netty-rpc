@@ -1,6 +1,6 @@
 syntax = "proto3";
 package netty;
-option java_package = "com.phei.netty.rpc.pojo";
+option java_package = "com.mylovin.netty.rpc.pojo";
 option java_outer_classname = "RequestProto";
 import "google/protobuf/any.proto";
 

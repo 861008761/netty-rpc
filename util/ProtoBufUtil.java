@@ -1,6 +1,6 @@
-package com.phei.netty.rpc.util;
+package com.mylovin.netty.rpc.util;
 
-import com.phei.netty.rpc.pojo.Request;
+import com.mylovin.netty.rpc.pojo.Request;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

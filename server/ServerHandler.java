@@ -1,9 +1,9 @@
-package com.phei.netty.rpc.server;
+package com.mylovin.netty.rpc.server;
 
 import com.alibaba.fastjson.JSON;
-import com.phei.netty.rpc.MessageSend;
-import com.phei.netty.rpc.pojo.RequestProto;
-import com.phei.netty.rpc.pojo.ResponseProto;
+import com.mylovin.netty.rpc.MessageSend;
+import com.mylovin.netty.rpc.pojo.RequestProto;
+import com.mylovin.netty.rpc.pojo.ResponseProto;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 import org.apache.log4j.Logger;
@@ -37,7 +37,7 @@ public class ServerHandler extends ChannelHandlerAdapter {
         System.out.println("Server receive request from remote client! msg: " + request);
 
         ResponseProto.Response.Builder builder = ResponseProto.Response.newBuilder();
-        builder.setResp(JSON.toJSONString(value));
+        builder.setReturnValue(JSON.toJSONString(value));
         ctx.writeAndFlush(builder.build());
     }
 }

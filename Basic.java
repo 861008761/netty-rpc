@@ -1,4 +1,4 @@
-package com.phei.netty.rpc;
+package com.mylovin.netty.rpc;
 
 public interface Basic {
     String send();

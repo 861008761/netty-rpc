@@ -1,7 +1,7 @@
-package com.phei.netty.rpc.client;
+package com.mylovin.netty.rpc.client;
 
-import com.phei.netty.rpc.Basic;
-import com.phei.netty.rpc.MessageProcessProxy;
+import com.mylovin.netty.rpc.Basic;
+import com.mylovin.netty.rpc.MessageProcessProxy;
 import org.apache.log4j.Logger;
 
 import java.lang.reflect.Proxy;

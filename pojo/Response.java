@@ -1,18 +1,27 @@
-package com.phei.netty.rpc.pojo;
+package com.mylovin.netty.rpc.pojo;
 
 public class Response {
-    private Object resp;
+    private String paramReturnType;
+    private String returnValue;
 
-    public Object getResp() {
-        return resp;
+    public String getParamReturnType() {
+        return paramReturnType;
     }
 
-    public void setResp(Object resp) {
-        this.resp = resp;
+    public void setParamReturnType(String paramReturnType) {
+        this.paramReturnType = paramReturnType;
+    }
+
+    public String getReturnValue() {
+        return returnValue;
+    }
+
+    public void setReturnValue(String returnValue) {
+        this.returnValue = returnValue;
     }
 
     @Override
     public String toString() {
-        return "Response[" + "resp: " + resp + "]";
+        return "Response[" + "paramReturnType: " + paramReturnType + "]";
     }
 }
